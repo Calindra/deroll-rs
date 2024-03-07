@@ -1,3 +1,0 @@
-[submodule "wallet/rollups-contracts"]
-	path = wallet/rollups-contracts
-	url = git@github.com:cartesi/rollups-contracts.git
