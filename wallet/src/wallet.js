@@ -1,4 +1,4 @@
-import { add } from "wallet";
+import { is_real } from "wallet";
 import { strict as assert } from "node:assert";
 
 async function main() {
