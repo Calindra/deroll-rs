@@ -1,5 +1,11 @@
-workspace = { members = [ "router","wallet"] }
+workspace = { members = ["router", "wallet"] }
 [package]
 name = "deroll-rs"
 version = "0.1.0"
 edition = "2021"
+
+[dependencies]
+alloy-core = { version = "0.6.4", features = ["sol-types", "json-abi"] }
+foundry-compilers = "0.3.13"
+serde = "1.0.197"
+serde_json = "1.0.114"
